@@ -11,7 +11,7 @@ for i in range(0, age + 1, 2):
 
 for i in range(1, age + 1, 2):
     dolls += 1
-
+ 
 money_from_dolls = dolls * price_per_doll
 all_sum = (sum - (age // 2)) + money_from_dolls
 
