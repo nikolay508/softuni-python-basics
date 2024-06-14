@@ -8,6 +8,7 @@ p5_broi = 0
 
 for numbers in range(n):
     numbers = int(input())
+    
     if numbers < 200:
         p1_broi += 1
     elif 200 <= numbers <= 399:
