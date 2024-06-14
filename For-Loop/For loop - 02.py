@@ -6,6 +6,7 @@ largest_number = 0
 for nums in range(n):
     numbers = int(input())
     sum += numbers
+    
     if numbers > largest_number:
         largest_number = numbers
 
